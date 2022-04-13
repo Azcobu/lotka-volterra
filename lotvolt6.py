@@ -1,13 +1,4 @@
-#Lotka Volterra sim rewritten for more efficiency
-
-# Idea and rules from NANIA
-# Each site has three states, wolf, empty, sheep.
-# Rules are as follows:
-#
-#   1. Pick a site (only stochastic updates allowed), and a neighbour
-#   2. If wolf is adjacent to sheep, sheep gets eaten (becomes wolf with probability r). Else wolf dies with probability p
-#   3. If sheep is adjacent to empty ground, reproduces with probability q
-#   4. If empty ground is adjacent to anything, the thing moves into empty ground
+#Lotka Volterra sim
 
 # Differs from v.5 in that animals do not randomly wander, but instead seek prey or
 # free space more directly, although randomness does factor into which they pick.
